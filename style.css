@@ -1,0 +1,70 @@
+body {
+    
+  }
+
+#main{
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+  .pagination {
+    
+    background: rgba(43, 134, 40, 0.466);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 35px;
+    text-align: center;
+-webkit-backdrop-filter: blur(50px);
+backdrop-filter: blur(50px);
+border: 1px solid rgba(43, 134, 40, 0.466);
+position:relative;
+  }
+  .jumbotron{
+    margin-top: 150px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    
+  }
+  .header {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+  }
+
+  .content {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.bg-1 {
+  background-color: rgba(21, 216, 14, 0.466); /* Green */
+}
+.bg-2 {
+  background-color: rgba(21, 216, 14, 0.466); /* Dark Blue */
+}
+.bg-3 {
+  background-color: rgba(21, 216, 14, 0.466); /* White */
+}
+
+.bg-4 {
+  background-color: rgba(21, 216, 14, 0.466);
+}
+
+p {
+  font-size: 18px;
+}
+
+#nav {
+  overflow: hidden;
+  background-color: rgba(43, 134, 40, 0.466);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.smlinks{
+ 
+}
