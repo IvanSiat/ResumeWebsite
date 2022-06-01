@@ -9,19 +9,20 @@ body {
 }
   .pagination {
     
-    background: rgba(43, 134, 40, 0.466);
+    background: #228cdb;);
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
 -webkit-backdrop-filter: blur(50px);
 backdrop-filter: blur(50px);
-border: 1px solid rgba(43, 134, 40, 0.466);
+border: 1px solid #228cdb;);
 position:relative;
   }
   .jumbotron{
     margin-top: 150px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
+    
     
   }
   .header {
@@ -35,22 +36,30 @@ position:relative;
   }
 
   ul {
-    text-align: center;
-    list-style-position: inside;
+    text-align:left;
+    
+    display: table;
 }
 
 .bg-1 {
-  background-color: rgba(21, 216, 14, 0.466); /* Green */
+  background-color: #228cdb
+  color: white;); /* Green */
 }
 .bg-2 {
-  background-color: rgba(21, 216, 14, 0.466); /* Dark Blue */
+  background-color: #228cdb;
+  color: white; /* Dark Blue */
+  border-radius: 10px;
 }
 .bg-3 {
-  background-color: rgba(21, 216, 14, 0.466); /* White */
+  background-color: #228cdb;
+  color: white;); /* White */
+  border-radius: 10px;
 }
 
 .bg-4 {
-  background-color: rgba(21, 216, 14, 0.466);
+  background-color: #228cdb;
+  color: white;);
+  border-radius: 10px;
 }
 
 p {
@@ -59,7 +68,7 @@ p {
 
 #nav {
   overflow: hidden;
-  background-color: rgba(43, 134, 40, 0.466);
+  background-color: #228cdb;);
   position: fixed;
   top: 0;
   width: 100%;
@@ -68,3 +77,4 @@ p {
 .smlinks{
  
 }
+
