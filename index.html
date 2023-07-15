@@ -1,208 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Ivan's Resume Website</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Ivan's Resume Website</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: MyResume - v4.7.0
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none">
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </button>
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"
+              ><i class="bx bx-home"></i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"
+              ><i class="bx bx-user"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link scrollto active"
+              ><i class="bx bx-code-alt"></i> <span>Skills</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"
+              ><i class="bx bx-book-content"></i> <span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume" class="nav-link scrollto"
+              ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#certificate" class="nav-link scrollto"
+              ><i class="bi bi-award"></i> <span>Certifications</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"
+              ><i class="bx bx-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </header>
+    <!-- End Header -->
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button>
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills" class="nav-link scrollto active"><i class="bx bx-code-alt"></i> <span>Skills</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#certificate" class="nav-link scrollto"><i class="bi bi-award"></i> <span>Certifications</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Ivan Siat</h1>
-      <p><span class="typed" data-typed-items="BSc Applied Computer Science, Software Developer, Data Analyst"></span></p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/ivan-christian-siat-2aa6831a8/" class="linkedin">LinkedIn <i class="bx bxl-linkedin" title="LinkedIn Profile"></i></a>
-        <a href="https://github.com/IvanSiat" class="github">GitHub <i class="bi bi-github" title="GitHub Repository"></i></a>
-        <a href="Ivan Siat 2023 Resume.docx" class="Resume">Resume/CV <i class="bi bi-file-earmark-person" title="Resume"></i></a>
-
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Hello! Welcome to my resume and website!</p>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Ivan Siat</h1>
+        <p>
+          <span
+            class="typed"
+            data-typed-items="BSc Applied Computer Science, Software Developer, Data Analyst"
+          ></span>
+        </p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/ivan-christian-siat-2aa6831a8/"
+            class="linkedin"
+            >LinkedIn <i class="bx bxl-linkedin" title="LinkedIn Profile"></i
+          ></a>
+          <a href="https://github.com/IvanSiat" class="github"
+            >GitHub <i class="bi bi-github" title="GitHub Repository"></i
+          ></a>
+          <a href="Ivan Siat 2023 Resume.docx" class="Resume"
+            >Resume/CV <i class="bi bi-file-earmark-person" title="Resume"></i
+          ></a>
         </div>
+      </div>
+    </section>
+    <!-- End Hero -->
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/selfie1.jpg" class="img-fluid" alt="">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>Hello! Welcome to my resume and website!</p>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Developer and Data Analyst</h3>
-            <p class="fst-italic">
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/selfie1.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+              <h3>Software Development and Data Analysis</h3>
+              <h5>Frontend Developer @ PolySense Solutions</h5>
+              <p class="fst-italic"></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong>
+                      <span>
+                        <a href="https://tinyurl.com/ivanweb">
+                          tinyurl.com/ivanweb</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong>
+                      <a href="tel:+12049511466">+1 (204) 951-1466</a>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <a
+                        href="mailto:&#115;&#105;&#097;&#116;&#105;&#118;&#097;&#110;&#064;&#121;&#097;&#104;&#111;&#111;&#046;&#099;&#111;&#109;"
+                        >siativan@yahoo.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Degree:</strong>
+                      <span
+                        >Undergraduate, BSc. in Applied Computer Science
+                        4yr</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>City:</strong> <span>Winnipeg, Manitoba, CA</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                Hello! I'm Ivan, a recent Computer Science Graduate from the
+                University of Winnipeg. I am currently a Frontend Developer for
+                PolySense Solutions, a company that helps aid with asset
+                tracking and management. I love learning new things and being
+                able to create and express my abilities through Software and Web
+                Development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Software Development and Data Analysis Skills</h2>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6">
+              <h3>Languages</h3>
+              <span class="skill">&#x2022; Java </span> <br />
+              <span class="skill">&#x2022; Python </span> <br />
+              <span class="skill">&#x2022; R </span> <br />
+              <span class="skill">&#x2022; C# </span> <br />
+              <span class="skill">&#x2022; SQL (Postgres) </span> <br />
+              <span class="skill">&#x2022; HTML </span> <br />
+              <span class="skill">&#x2022; CSS </span> <br />
+              <span class="skill">&#x2022; JavaScript</span> <br />
+            </div>
+
+            <div class="col-lg-6">
+              <h3>Frameworks and Libraries</h3>
+              <span class="skill">&#x2022; React </span> <br />
+              <span class="skill">&#x2022; ASP.NET/.NET </span> <br />
+              <span class="skill">&#x2022; Django </span> <br />
+              <span class="skill">&#x2022; Node.js</span> <br />
+              <span class="skill">&#x2022; Express</span> <br />
+              <span class="skill">&#x2022; Bootstrap</span> <br />
+              <span class="skill">&#x2022; Spring Boot</span> <br />
+              <span class="skill">&#x2022; REST</span> <br />
+            </div>
+
+            <div class="col-lg-6">
+              <h3>Data Analysis</h3>
+              <span class="skill">&#x2022; Spreadsheets </span> <br />
+              <span class="skill"
+                >&#x2022; Visualization (ggplot2, Tableau)
+              </span>
+              <br />
+              <span class="skill"
+                >&#x2022; Data Manipulation and Cleaning
+              </span>
+              <br />
+              <span class="skill">&#x2022; Kaggle </span> <br />
+            </div>
+
+            <div class="col-lg-6">
+              <h3>Developer Tools</h3>
+              <span class="skill">&#x2022; Git/GitHub</span> <br />
+              <span class="skill"
+                >&#x2022; IDEs (VS Code, Visual Studio, IntelliJ, etc.)</span
+              >
+              <br />
+              <span class="skill"
+                >&#x2022; Software Development Lifecycle (Agile, Waterfall)
+              </span>
+              <br />
+              <span class="skill"
+                >&#x2022; Documentation (Manuals, Reports)
+              </span>
+              <br />
+              <span class="skill">&#x2022; Diagrams</span> <br />
+              <span class="skill">&#x2022; Data Structure and Algorithms</span>
+              <br />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Resume</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="resume-title">Summary</h3>
+              <div class="resume-item pb-0">
+                <h4>Ivan Christian Siat</h4>
+                <p><em>Recent Graduate from the University of Winnipeg.</em></p>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>
-                    <a href ="https://tinyurl.com/ivanweb">
-                    tinyurl.com/ivanweb</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <a href="tel:+12049511466">+1 (204) 951-1466</a></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <a href="mailto:&#115;&#105;&#097;&#116;&#105;&#118;&#097;&#110;&#064;&#121;&#097;&#104;&#111;&#111;&#046;&#099;&#111;&#109;">siativan@yahoo.com</a></li>
+                  <li>Winnipeg, Manitoba, CA</li>
+                  <li>+1 (204) 951-1466</li>
+                  <li>siativan@yahoo.com</li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Undergraduate Degree</h4>
+                <h5>2022</h5>
+                <p><em>University Of Winnipeg, Manitoba, Canada</em></p>
+                <p>BSc in Applied Computer Science</p>
+                <p>
+                  <b>Dean's Honour List - Student of Distinction (2020-2021)</b>
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Meta Front-end Developer Specialization</h4>
+                <h5>2023</h5>
+                <p><em>Meta, Coursera</em></p>
+                <p>Frontend Development Course by Meta, through Coursera</p>
+                <a
+                  href="
+              https://www.coursera.org/account/accomplishments/specialization/certificate/65R7ZJBZ2V7C"
+                >
+                  Certificate Link</a
+                >
+              </div>
+              <div class="resume-item">
+                <h4>Meta Back-end Developer Specialization</h4>
+                <h5>2023</h5>
+                <p><em>Meta, Coursera</em></p>
+                <p>Backend Development Course by Meta, through Coursera</p>
+                <a
+                  href="
+              https://www.coursera.org/account/accomplishments/specialization/certificate/JPW7PLS7UP6U"
+                >
+                  Certificate Link</a
+                >
+              </div>
+              <div class="resume-item">
+                <h4>Google Data Analytics Specialization</h4>
+                <h5>2022</h5>
+                <p><em>Google, Coursera</em></p>
+                <p>Data Analytics course offered by Google through Coursera</p>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/specialization/certificate/4T794MCAW4H6"
+                >
+                  Certificate Link</a
+                >
+              </div>
+
+              <h3 class="resume-title">Non-related Work Experience</h3>
+
+              <div class="resume-item">
+                <h4>Remote Customer Relations Associate</h4>
+                <h5>2022-2023</h5>
+                <p><em>Hinduja Global Solutions</em></p>
+              </div>
+              <div class="resume-item">
+                <h4>Counter Staff/Baking/Delivery Unloading</h4>
+                <h5>2018-2021</h5>
+                <p><em>Tim Hortons</em></p>
+              </div>
+              <div class="resume-item">
+                <h4>Courtesy Clerk</h4>
+                <h5>2016-2018</h5>
+                <p><em>Real Canadian Superstore</em></p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="resume-title">
+                Professional and Educational Experience
+              </h3>
+              <div class="resume-item">
+                <h4>Frontend Developer</h4>
+                <h5>April 2023 - Present</h5>
+                <p><em>PolySense Solutions</em></p>
+                <p><em>Winnipeg, Manitoba</em></p>
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate, BSc. in Applied Computer Science 4yr</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Winnipeg, Manitoba, CA</span></li>
+                  <li>
+                    Designing, Creating, and Implementing user interfaces for
+                    our asset management software
+                  </li>
+                  <li>
+                    Writing JavaScript, Python (Django), HTML, and CSS to create
+                    new features, fix bugs, adapt it to new and evolving
+                    hardware, improve performance, and redesign interfaces
+                  </li>
+                  <li>
+                    Perform system testing and validation, and direct software
+                    programming and documentation development
+                  </li>
+                  <li>
+                    Working with stakeholders on technical issues maintenance
+                  </li>
+                  <li>
+                    Consulting with engineering staff to collaborate on
+                    software-hardware interfaces and develop specifications and
+                    requirements
+                  </li>
+                  <li>
+                    Design and implementation of continouous integration and
+                    deployment
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Quality Control Specialist & Developer</h4>
+                <h5>September 2020 - April 2021</h5>
+                <p><em>Tundra Oil & Gas Project: Well Made Dashboard</em></p>
+                <p><em>ACS 4901 Senior Systems Development</em></p>
+                <ul>
+                  <li>
+                    Developed a full-stack web app using C#, .NET,
+                    ChartJS.Blazor, Dapper, and SQL to visualize oil well data
+                    on graphs for an undergraduate project in collaboration with
+                    a student team
+                  </li>
+                  <li>
+                    Implemented dashboard features such as incremental loading,
+                    date slider, add/remove graphs from dashboard, create new
+                    dashboard, and saving graphs to dashboard
+                  </li>
+                  <li>
+                    Developed front-end features such as navigation menu,
+                    dashboard navigation, and aesthetic CSS Frontend with dark
+                    mode option
+                  </li>
+                  <li>
+                    Produced documentation such as Design Reports, System
+                    Reports, Manuals, and Diagrams for the project
+                  </li>
+                  <li>
+                    Monitored team activity and deliverables to fit standards
+                    set in the given quality control handbook
+                  </li>
+                  <li>
+                    Participated in daily scrums and check-ins to review
+                    progress on our Project Plan with a Waterfall/Agile SDLC
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Team Leader</h4>
+                <h5>September - December 2019</h5>
+                <p><em>ACS 3916 Human-Computer Interaction</em></p>
+                <ul>
+                  <li>
+                    Led the team and delegated responsibilities to ensure smooth
+                    workflow, which allowed us to meet the deadlines set in the
+                    syllabus
+                  </li>
+                  <li>
+                    Developed the base of the user interface, in Balsamiq and
+                    UXPin
+                  </li>
+                  <li>
+                    Responsible for notes and slides to be used on the day of
+                    presentation
+                  </li>
+                  <li>
+                    Developed storyboards, researched with surveys, and produce
+                    paper prototypes to establisha base for our project
+                  </li>
                 </ul>
               </div>
             </div>
-            <p>
-              Hello! I'm Ivan, a recent Computer Science Graduate from the University of Winnipeg. I love learning new things and being able to create and express my abilities through Software and Web Development. I also love video games and I have a passion for music.
-            </p>
           </div>
         </div>
+      </section>
+      <!-- End Resume Section -->
 
-      </div>
-    </section><!-- End About Section -->
+      <!-- ======= Portfolio Section ======= -->
 
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Software Development and Data Analysis Skills</h2>
-
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-              <h3> Languages</h3>
-              <span class="skill">&#x2022; Java </span> <br>
-              <span class="skill">&#x2022; Python </span> <br>
-              <span class="skill">&#x2022; R </span> <br>
-              <span class="skill">&#x2022; C# </span> <br>
-              <span class="skill">&#x2022; SQL (Postgres) </span> <br>
-              <span class="skill">&#x2022; HTML </span> <br>
-              <span class="skill">&#x2022; CSS </span> <br>
-              <span class="skill">&#x2022; JavaScript</span> <br>
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Projects</h2>
+            <p>Here are some of the works I've done!</p>
           </div>
 
-          <div class="col-lg-6">
-            <h3> Frameworks and Libraries</h3>
-            <span class="skill">&#x2022; React </span> <br>
-            <span class="skill">&#x2022; ASP.NET/.NET </span> <br>
-            <span class="skill">&#x2022; Django </span> <br>
-            <span class="skill">&#x2022; Node.js</span> <br>
-            <span class="skill">&#x2022; Express</span> <br>
-            <span class="skill">&#x2022; Bootstrap</span> <br>
-            <span class="skill">&#x2022; Spring Boot</span> <br>
-            <span class="skill">&#x2022; REST</span> <br>
-
-
-        </div>
-
-        <div class="col-lg-6">
-          <h3> Data Analysis</h3>
-          <span class="skill">&#x2022; Spreadsheets </span> <br>
-          <span class="skill">&#x2022; Visualization (ggplot2, Tableau) </span> <br>
-          <span class="skill">&#x2022; Data Manipulation and Cleaning </span> <br>
-          <span class="skill">&#x2022; Kaggle </span> <br>
-      </div>
-
-      <div class="col-lg-6">
-        <h3> Developer Tools</h3>
-        <span class="skill">&#x2022; Git/GitHub</span> <br>
-        <span class="skill">&#x2022; IDEs (VS Code, Visual Studio, IntelliJ, etc.)</span> <br>
-        <span class="skill">&#x2022; Software Development Lifecycle (Agile, Waterfall) </span> <br>
-        <span class="skill">&#x2022; Documentation (Manuals, Reports) </span> <br>
-        <span class="skill">&#x2022; Diagrams</span> <br>
-        <span class="skill">&#x2022; Data Structure and Algorithms</span> <br>
-    </div>
-
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-        <!-- ======= Portfolio Section ======= -->
-
-<!-- ======= Portfolio Section ======= -->
-
-        <section id="portfolio" class="portfolio section-bg">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>Projects</h2>
-              <p>Here are some of the works I've done!</p>
-            </div>
-
-            <div class="row">
-              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
+          <div class="row">
+            <div
+              class="row portfolio-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="assets/img/swreact.PNG" class="img-fluid" alt="">
+                  <img src="assets/img/swreact.PNG" class="img-fluid" alt="" />
                   <div class="portfolio-info">
                     <h4>Sweater Weather</h4>
-                    <p>Weather app made with JavaScript, React, and OpenWeather API</p>
+                    <p>
+                      Weather app made with JavaScript, React, and OpenWeather
+                      API
+                    </p>
                     <div class="portfolio-links">
-                      <a href="assets/img/swreact.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sweater Weather"><i class="bx bx-plus"></i></a>
-                      <a href="https://ivansiat.github.io/Sweater-Weather/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      <a
+                        href="assets/img/swreact.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="Sweater Weather"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://ivansiat.github.io/Sweater-Weather/"
+                        class="portfolio-details-lightbox"
+                        data-glightbox="type: external"
+                        title="Portfolio Details"
+                        ><i class="bx bx-link"></i
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -210,308 +502,303 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="assets/img/LittleLemon.PNG" class="img-fluid" alt="">
+                  <img
+                    src="assets/img/LittleLemon.PNG"
+                    class="img-fluid"
+                    alt=""
+                  />
                   <div class="portfolio-info">
                     <h4>Little Lemon</h4>
-                    <p>Final Capstone project for the Meta Back-end Specialization course</p>
+                    <p>
+                      Final Capstone project for the Meta Back-end
+                      Specialization course
+                    </p>
                     <div class="portfolio-links">
-                      <a href="assets/img/LittleLemon.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LittleLemon"><i class="bx bx-plus"></i></a>
-                      <a href="https://github.com/IvanSiat/Little-Lemon-Fullstack"><i class="bx bx-link"></i></a>
+                      <a
+                        href="assets/img/LittleLemon.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="LittleLemon"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://github.com/IvanSiat/Little-Lemon-Fullstack"
+                        ><i class="bx bx-link"></i
+                      ></a>
                     </div>
                   </div>
                 </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/Capture.PNG" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                      <h4>Bellabeat Case Study</h4>
-                      <p>Final Capstone project for the Google Data Analytics course</p>
-                      <div class="portfolio-links">
-                        <a href="assets/img/Capture.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="BellaBeat Case Study"><i class="bx bx-plus"></i></a>
-                        <a href="https://tinyurl.com/ivancasestudy"><i class="bx bx-link"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
+              </div>
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="assets/img/resteasy.PNG" class="img-fluid" alt="">
+                  <img src="assets/img/Capture.PNG" class="img-fluid" alt="" />
                   <div class="portfolio-info">
-                    <h4>Rest Easy Detailing</h4>
-                    <p>Website made for Rest Easy Detailing, developed with BootstrapMade</p>
+                    <h4>Bellabeat Case Study</h4>
+                    <p>
+                      Final Capstone project for the Google Data Analytics
+                      course
+                    </p>
                     <div class="portfolio-links">
-                      <a href="assets/img/resteasy.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RestEasy web"><i class="bx bx-plus"></i></a>
-                      <a href="https://tinyurl.com/resteasydetailing" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      <a
+                        href="assets/img/Capture.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="BellaBeat Case Study"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a href="https://tinyurl.com/ivancasestudy"
+                        ><i class="bx bx-link"></i
+                      ></a>
                     </div>
                   </div>
                 </div>
               </div>
 
-
-            </div>
-            </div>
-  </div>
-
-
-        </section>
-        <!-- End Portfolio Section -->
-
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Ivan Christian Siat</h4>
-              <p><em>Recent Graduate from the University of Winnipeg.</em></p>
-              <ul>
-                <li>Winnipeg, Manitoba, CA</li>
-                <li>+1 (204) 951-1466</li>
-                <li>siativan@yahoo.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Undergraduate Degree</h4>
-              <h5>2022</h5>
-              <p><em>University Of Winnipeg, Manitoba, Canada</em></p>
-              <p>BSc in Applied Computer Science</p>
-              <p><b>Dean's Honour List - Student of Distinction (2020-2021)</b></p>
-            </div>
-            <div class="resume-item">
-              <h4>Meta Front-end Developer Specialization</h4>
-              <h5>2023</h5>
-              <p><em>Meta, Coursera</em></p>
-              <p>Frontend Development Course by Meta, through Coursera</p>
-              <a href="
-              https://www.coursera.org/account/accomplishments/specialization/certificate/65R7ZJBZ2V7C"> Certificate Link</a>
-            </div>
-            <div class="resume-item">
-              <h4>Meta Back-end Developer Specialization</h4>
-              <h5>2023</h5>
-              <p><em>Meta, Coursera</em></p>
-              <p>Backend Development Course by Meta, through Coursera</p>
-              <a href="
-              https://www.coursera.org/account/accomplishments/specialization/certificate/JPW7PLS7UP6U"> Certificate Link</a>
-            </div>
-            <div class="resume-item">
-              <h4>Google Data Analytics Specialization</h4>
-              <h5>2022</h5>
-              <p><em>Google, Coursera</em></p>
-              <p>Data Analytics course offered by Google through Coursera</p>
-              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/4T794MCAW4H6"> Certificate Link</a>
-            </div>
-
-            <h3 class="resume-title">Non-related Work Experience</h3>
-
-            <div class="resume-item">
-              <h4>Remote Customer Relations Associate</h4>
-              <h5>2022-2023</h5>
-              <p><em>Hinduja Global Solutions</em></p>
-
-            </div><div class="resume-item">
-              <h4>Counter Staff/Baking/Delivery Unloading</h4>
-              <h5>2018-2021</h5>
-              <p><em>Tim Hortons</em></p>
-
-            </div><div class="resume-item">
-              <h4>Courtesy Clerk</h4>
-              <h5>2016-2018</h5>
-              <p><em>Real Canadian Superstore</em></p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional and Educational Experience</h3>
-            <div class="resume-item">
-              <h4>Quality Control Specialist & Developer</h4>
-              <h5>September 2020 - April 2021</h5>
-              <p><em>Tundra Oil & Gas Project: Well Made Dashboard</em></p>
-              <p><em>ACS 4901 Senior Systems Development</em></p>
-              <ul>
-                <li>Developed a full-stack web app using C#, .NET, ChartJS.Blazor, Dapper, and SQL to visualize oil well data on graphs for an undergraduate project in collaboration with a student team</li>
-                <li>Implemented dashboard features such as incremental loading, date slider, add/remove graphs from dashboard, create new dashboard, and saving graphs to dashboard </li>
-                <li>Developed front-end features such as navigation menu, dashboard navigation, and aesthetic CSS Frontend with dark mode option</li>
-                <li>Produced documentation such as Design Reports, System Reports, Manuals, and Diagrams for the project</li>
-                <li>Monitored team activity and deliverables to fit standards set in the given quality control handbook </li>
-                <li>Participated in daily scrums and check-ins to review progress on our Project Plan with a Waterfall/Agile SDLC</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Team Leader</h4>
-              <h5>September - December 2019</h5>
-              <p><em>ACS 3916 Human-Computer Interaction</em></p>
-              <ul>
-                <li>Led the team and delegated responsibilities to ensure smooth workflow, which allowed us to meet the deadlines set in the syllabus</li>
-                <li>Developed the base of the user interface, in Balsamiq and UXPin</li>
-                <li>Responsible for notes and slides to be used on the day of presentation</li>
-                <li>Developed storyboards, researched with surveys, and produce paper prototypes to establisha base for our project</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-
- <!-- ======= Portfolio Section ======= -->
- <section id="certificate" class="portfolio section-bg certificate">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>Certifications</h2>
-      <p>Below is some of the certificates I've acquired!</p>
-    </div>
-
-    <div class="row">
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/Metafrontend.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Meta Front-end Developer Specialization</h4>
-              <p>Front-end Development course in HTMl, CSS, Javascript, React, and UI/UX Design</p>
-              <div class="portfolio-links">
-                <a href="assets/img/Metafrontend.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/65R7ZJBZ2V7C" class="portfolio-details-lightbox" data-glightbox="type: external" title="Certificate Link"><i class="bx bx-link"></i></a>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="assets/img/resteasy.PNG" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Rest Easy Detailing</h4>
+                    <p>
+                      Website made for Rest Easy Detailing, developed with
+                      BootstrapMade
+                    </p>
+                    <div class="portfolio-links">
+                      <a
+                        href="assets/img/resteasy.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="RestEasy web"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://tinyurl.com/resteasydetailing"
+                        class="portfolio-details-lightbox"
+                        data-glightbox="type: external"
+                        title="Portfolio Details"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/Meta Cert.PNG" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Meta Back-end Developer Specialization</h4>
-            <p>Back-end developer course in Django and API development</p>
-            <div class="portfolio-links">
-              <a href="assets/img/Meta Cert.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JPW7PLS7UP6U" class="portfolio-details-lightbox" data-glightbox="type: external" title="Certificate Link"><i class="bx bx-link"></i></a>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="certificate" class="portfolio section-bg certificate">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Certifications</h2>
+            <p>Below is some of the certificates I've acquired!</p>
+          </div>
+
+          <div class="row">
+            <div
+              class="row portfolio-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img
+                    src="assets/img/Metafrontend.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Meta Front-end Developer Specialization</h4>
+                    <p>
+                      Front-end Development course in HTMl, CSS, Javascript,
+                      React, and UI/UX Design
+                    </p>
+                    <div class="portfolio-links">
+                      <a
+                        href="assets/img/Metafrontend.png"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="Preview"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/specialization/certificate/65R7ZJBZ2V7C"
+                        class="portfolio-details-lightbox"
+                        data-glightbox="type: external"
+                        title="Certificate Link"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img
+                    src="assets/img/Meta Cert.PNG"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Meta Back-end Developer Specialization</h4>
+                    <p>
+                      Back-end developer course in Django and API development
+                    </p>
+                    <div class="portfolio-links">
+                      <a
+                        href="assets/img/Meta Cert.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="Preview"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/specialization/certificate/JPW7PLS7UP6U"
+                        class="portfolio-details-lightbox"
+                        data-glightbox="type: external"
+                        title="Certificate Link"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img
+                    src="assets/img/Google Cert.PNG"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Google Data Analytics Specialization</h4>
+                    <p>
+                      Data Analytics course in Spreadsheets, SQL, R, and Tableau
+                    </p>
+                    <div class="portfolio-links">
+                      <a
+                        href="assets/img/Google Cert.PNG"
+                        data-gallery="portfolioGallery"
+                        class="portfolio-lightbox"
+                        title="Preview"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/specialization/certificate/4T794MCAW4H6"
+                        class="portfolio-details-lightbox"
+                        data-glightbox="type: external"
+                        title="Certificate Link"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/Google Cert.PNG" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Google Data Analytics Specialization</h4>
-            <p>Data Analytics course in Spreadsheets, SQL, R, and Tableau</p>
-            <div class="portfolio-links">
-              <a href="assets/img/Google Cert.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/4T794MCAW4H6" class="portfolio-details-lightbox" data-glightbox="type: external" title="Certificate Link"><i class="bx bx-link"></i></a>
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="row mt-1">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Winnipeg, Manitoba, CA</p>
+                </div>
+
+                <div class="email">
+                  <a
+                    href="mailto:&#115;&#105;&#097;&#116;&#105;&#118;&#097;&#110;&#064;&#121;&#097;&#104;&#111;&#111;&#046;&#099;&#111;&#109;"
+                  >
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>siativan@yahoo.com</p></a
+                  >
+                </div>
+
+                <div class="phone">
+                  <a href="tel:+12049511466">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call/Text:</h4>
+                    <p>+1 (204) 951-1466</p></a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-  </div>
-  </div>
-</div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Ivan Siat</h3>
 
-
-</section><!-- End Portfolio Section -->
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/ivan-christian-siat-2aa6831a8/"
+            class="linkedin"
+            ><i class="bx bxl-linkedin" title="LinkedIn Profile"></i
+          ></a>
+          <a href="https://github.com/IvanSiat" class="github"
+            ><i class="bi bi-github" title="GitHub Repository"></i
+          ></a>
+          <a href="Ivan Siat 2023 Resume.docx" class="Resume"
+            ><i class="bi bi-file-earmark-person" title="Resume"></i
+          ></a>
         </div>
-
-        <div class="row mt-1 ">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Winnipeg, Manitoba, CA</p>
-              </div>
-
-              <div class="email"> <a href="mailto:&#115;&#105;&#097;&#116;&#105;&#118;&#097;&#110;&#064;&#121;&#097;&#104;&#111;&#111;&#046;&#099;&#111;&#109;">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>siativan@yahoo.com</p></a>
-              </div>
-
-              <div class="phone"> <a href="tel:+12049511466">
-                <i class="bi bi-phone"></i>
-                <h4>Call/Text:</h4>
-                <p>+1 (204) 951-1466</p></a>
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="copyright">
+          &copy; Copyright <strong><span>Ivan Siat</span></strong
+          >. All Rights Reserved
         </div>
-
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: [license-url] -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <p>Header BG from Vecteezy.com</p>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </footer>
+    <!-- End Footer -->
 
-  </main><!-- End #main -->
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Ivan Siat</h3>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-      <div class="social-links">
-
-        <a href="https://www.linkedin.com/in/ivan-christian-siat-2aa6831a8/" class="linkedin"><i class="bx bxl-linkedin" title="LinkedIn Profile"></i></a>
-        <a href="https://github.com/IvanSiat" class="github"><i class="bi bi-github" title="GitHub Repository"></i></a>
-        <a href="Ivan Siat 2023 Resume.docx" class="Resume"><i class="bi bi-file-earmark-person" title="Resume"></i></a>
-
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>Ivan Siat</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        <p>Header BG from Vecteezy.com</p>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
